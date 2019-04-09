@@ -4,7 +4,7 @@
   align-items: center;
   background-color: #ba68c8;
   grid-template-columns: 1fr;
-  grid-template-rows: 80px 80px 10px 125px auto auto;
+  grid-template-rows: 80px 80px 10px 125px auto auto auto;
   justify-items: center;
   align-items: center;
   grid-template-areas:
@@ -13,6 +13,7 @@
     "divider"
     "nav"
     "content"
+    "content2"
     "footer";
 }
 
@@ -86,26 +87,37 @@
   margin-top: 15px;
 }
 
-.site-img {
+.site-img-row1 {
   grid-area: content;
   width: 400px;
   height: 200px;
 }
 
-.site-img-left {
+.site-img-row1-left {
+  /* align-self: start;
+  justify-self: start; */
+}
+
+.site-source-left {
+  /* align-self: start;
+  justify-self: start; */
+}
+
+.site-img-row1-middle {
+  /* align-self: center;
+  justify-self: center; */
+}
+
+.site-img-row2 {
+  grid-area: content2;
+  width: 400px;
+  height: 200px;
+}
+
+/* .site-img-row2-left {
   align-self: start;
   justify-self: start;
-}
-
-.site-img-middle {
-  align-self: center;
-  justify-self: center;
-}
-
-.site-img-right {
-  align-self: end;
-  justify-self: end;
-}
+} */
 
 .footer-item-left {
   grid-area: footer;
