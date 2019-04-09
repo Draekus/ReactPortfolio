@@ -69,7 +69,7 @@
 }
 
 .content {
-  height: 400px;
+  height: 600px;
   grid-area: content;
   font-family: "Rubik", sans-serif;
   color: white;
@@ -77,11 +77,34 @@
 }
 
 .intro-line {
+  margin-top: 50px;
   text-align: center;
 }
 
 .main-paragraph {
   text-align: center;
+  margin-top: 15px;
+}
+
+.site-img {
+  grid-area: content;
+  width: 400px;
+  height: 200px;
+}
+
+.site-img-left {
+  align-self: start;
+  justify-self: start;
+}
+
+.site-img-middle {
+  align-self: center;
+  justify-self: center;
+}
+
+.site-img-right {
+  align-self: end;
+  justify-self: end;
 }
 
 .footer-item-left {
